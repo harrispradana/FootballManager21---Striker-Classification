@@ -23,7 +23,7 @@ Karena data yang dimiliki bersifat imbalance, maka dalam analisis juga dilakukan
   * Data imbalance (data original)
   * Data Balanced, data original yang ditreatment dengan melakukan oversampling dengan teknik SMOTE
 
-Sehingga secara total terdapat 12 model yang akan dijalankan pada analisis ini. Kemudian ke 12 model tersebut akan dievaluasi dengan membandingkan nilai F1 score dari setiap model untuk menentukan model terbaik. Nilai F1 score dipilih sebagai metrik evaluasi karena analisis ini berusaha untuk meminimalkan nilai observasi yang false positif dan false negatif dalam model.
+Sehingga secara total terdapat 12 model yang akan dijalankan pada analisis ini. Kemudian ke 12 model tersebut akan dievaluasi dengan membandingkan nilai F1 score dari setiap model untuk menentukan model terbaik. Nilai F1 score dipilih sebagai metrik evaluasi karena analisis ini berusaha untuk meminimalkan nilai observasi false positif dan false negatif dalam model.
 
 ## Hasil
 Dari hasil evaluasi metrik 12 model yang dijalankan, model terbaik untuk data ini adalah **model random forest yang menggunakan seluruh fitur dengan data balanced**. Model tersebut memiliki nilai F1 score sebesar 0.9729 dengan nilai presisi 0.9623 dan nilai recall 0.9838
